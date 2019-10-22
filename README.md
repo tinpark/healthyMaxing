@@ -1,7 +1,7 @@
 # healthyMaxing
 A way to help you make nice max code you can reuse in future.
 
-It has 1 external dependency which is the Jasch object *createfolder*. This is easy to install with the MaxMSP package manager. 
+It has 1 external dependency which is the [Jasch](https://www.jasch.ch/focus.html) object *createfolder*. This is easy to install with the MaxMSP package manager. 
 
 ## The toolkit consists of
 various tools to keep in your top-level patch. Almost all of them work as bpatchers with a simple and clean interface to more complex functions underneath;
