@@ -7,9 +7,9 @@ It has 1 external dependency which is the [Jasch](https://www.jasch.ch/focus.htm
 various tools to keep in your top-level patch. Almost all of them work as bpatchers with a simple and clean interface to more complex functions underneath;
 
 ### mp.init
-Initiate a stream of loadbangs in order to trigger loading of your patches in the right order, see [mp.setupFolder](#setupFolder) below.
+Initiate a stream of loadbangs in order to trigger loading of your patches in the right order, see [mp.setupFolder](#mpsetupfolder-setupfolder) below.
 
-### mp.setupFolder {#setupFolder}
+### mp.setupFolder
 This is an essential patch and relies on Jasch's createfolder object. Give this abstraction an argument and it will setup a folder of that name and store the full and correct filepath for that folder inside a `value` or `v` object. Bang the `v` object anywhere in your patch to get the fullpath. In association with mp.init, this also manages setting up folder reltaionships for standalones. It's a really useful tool.
 
 ### mp.setupSoundCard
